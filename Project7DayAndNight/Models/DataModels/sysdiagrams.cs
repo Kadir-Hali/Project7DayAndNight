@@ -12,14 +12,12 @@ namespace Project7DayAndNight.Models.DataModels
     using System;
     using System.Collections.Generic;
     
-    public partial class TblProduct
+    public partial class sysdiagrams
     {
-        public int ProductId { get; set; }
-        public string ProductName { get; set; }
-        public Nullable<int> ProductStock { get; set; }
-        public Nullable<bool> ProductStatus { get; set; }
-        public Nullable<int> CategoryId { get; set; }
-    
-        public virtual TblCategory TblCategory { get; set; }
+        public string name { get; set; }
+        public int principal_id { get; set; }
+        public int diagram_id { get; set; }
+        public Nullable<int> version { get; set; }
+        public byte[] definition { get; set; }
     }
 }

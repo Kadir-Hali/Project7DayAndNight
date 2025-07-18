@@ -7,6 +7,8 @@
       <Diagram DiagramId="afa6f8d3b5104b9c8eec817c2f18c517" Name="Diagram1">
         <EntityTypeShape EntityType="DayNightDbModel.TblCategory" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="DayNightDbModel.TblProduct" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DayNightDbModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="3.75" />
+        <AssociationConnector Association="DayNightDbModel.FK_TblProduct_TblCategory" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

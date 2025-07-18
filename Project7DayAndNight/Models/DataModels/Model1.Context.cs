@@ -27,5 +27,6 @@ namespace Project7DayAndNight.Models.DataModels
     
         public virtual DbSet<TblCategory> TblCategory { get; set; }
         public virtual DbSet<TblProduct> TblProduct { get; set; }
+        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
     }
 }
